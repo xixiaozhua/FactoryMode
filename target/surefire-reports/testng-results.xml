@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="5" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[2]]>
+    </line>
+    <line>
+      <![CDATA[错啦]]>
+    </line>
+    <line>
+      <![CDATA[2]]>
+    </line>
+    <line>
+      <![CDATA[错啦]]>
+    </line>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="586" started-at="2022-05-09T12:37:22 CST" finished-at="2022-05-09T12:37:23 CST">
+    <groups>
+      <group name="第一批">
+        <method signature="runTest.test_1()[pri:2, instance:org.testNg.runTest@f8c1ddd]" name="test_1" class="org.testNg.runTest"/>
+        <method signature="runTest.test_2()[pri:1, instance:org.testNg.runTest@f8c1ddd]" name="test_2" class="org.testNg.runTest"/>
+      </group> <!-- 第一批 -->
+    </groups>
+    <test name="/Users/tomorrowisly/FactoryMode" duration-ms="586" started-at="2022-05-09T12:37:22 CST" finished-at="2022-05-09T12:37:23 CST">
+      <class name="org.testNg.runTest">
+        <test-method status="PASS" signature="test_2()[pri:1, instance:org.testNg.runTest@f8c1ddd]" name="test_2" duration-ms="103" started-at="2022-05-09T12:37:22 CST" finished-at="2022-05-09T12:37:22 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[2]]>
+            </line>
+            <line>
+              <![CDATA[错啦]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method status="PASS" signature="test_2()[pri:1, instance:org.testNg.runTest@f8c1ddd]" name="test_2" duration-ms="3" started-at="2022-05-09T12:37:23 CST" finished-at="2022-05-09T12:37:23 CST">
+          <reporter-output>
+            <line>
+              <![CDATA[2]]>
+            </line>
+            <line>
+              <![CDATA[错啦]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_2 -->
+        <test-method status="FAIL" signature="test_1()[pri:2, instance:org.testNg.runTest@f8c1ddd]" name="test_1" duration-ms="37" started-at="2022-05-09T12:37:23 CST" finished-at="2022-05-09T12:37:23 CST">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testNg.runTest.test_1() didn't finish within the time-out 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testNg.runTest.test_1() didn't finish within the time-out 1
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+      </class> <!-- org.testNg.runTest -->
+    </test> <!-- /Users/tomorrowisly/FactoryMode -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

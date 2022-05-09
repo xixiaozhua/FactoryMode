@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="/Users/tomorrowisly/FactoryMode"
+           tests="3"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.143">
+  <properties />
+            <testcase name="test_1" time="0.037" classname="org.testNg.runTest">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method org.testNg.runTest.test_1() didn&apos;t finish within the time-out 1"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testNg.runTest.test_1() didn't finish within the time-out 1
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="test_2" time="0.003" classname="org.testNg.runTest" />
+                <testcase name="test_2" time="0.103" classname="org.testNg.runTest" />
+      
+</testsuite>
