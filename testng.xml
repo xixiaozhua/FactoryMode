@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/tomorrowisly/FactoryMode">
+        <groups>
+            <run>
+                <include name = "第一批"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.testNg.runTest">
+            </class>
+        </classes>
+<!--        <jvmarg value="-Dfile.encoding=UTF-8"/>”-->
+    </test>
+    <listeners>
+        <!--testng的XML配置文件中添加这些内容-->
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+</suite>
