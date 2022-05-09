@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="/Users/tomorrowisly/FactoryMode">
         <groups>
             <run>
-                <include name = "第一批"/>
+                <include name = "第二批"/>
             </run>
         </groups>
         <classes>
